@@ -1,0 +1,18 @@
+body{
+    background-color: #F3F5FC;
+    padding: 0 3%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: auto;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 5%;
+    margin: 2.5rem 0;
+}

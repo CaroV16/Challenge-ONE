@@ -73,3 +73,26 @@ encriptador{
     color: #495057;
     opacity: 0.8 ;
 }
+
+.botones{
+    flex: 1 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.botones input{
+    flex: 1 50%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+
+    font-family: 'Inter';
+    font-size: 1rem;
+    color: #FFFFFF;
+
+    background: #0A3871;
+    border: none;
+}
+

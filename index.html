@@ -11,6 +11,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="javascript/Encriptador-programa.js"></script>
+        
     </head>
 
     <body>
@@ -24,7 +26,7 @@
         <main>
             <div class="encriptador">
 
-                <textarea name="Mensaje" cols="20" rows="4" placeholder="Ingrese el texto aqui" required></textarea>
+                <textarea class="mensaje-ingresado" cols="20" rows="4" placeholder="Ingrese el texto aqui" required></textarea>
                
                 <div class="instruccion">
                     <img src="imagenes/signo-de-admiracion.png" alt="Signo de Admiración">
@@ -49,7 +51,7 @@
                 </div>
 
                 <div class="resultado">
-                    <textarea name="Mensaje encripato" cols="20" rows="10" readonly></textarea>
+                    <textarea class="mensaje-encriptado" cols="20" rows="10" readonly></textarea>
                     <input type="button" value="Copiar" class="boton-copiar">
                 </div>
 

@@ -147,7 +147,7 @@ main{
 }
 
 .resultado{
-    display: none/*inline-flex*/;
+    display: none /*inline-flex*/;
     flex-flow: row wrap;
     justify-content: center;
     padding:1.5rem;

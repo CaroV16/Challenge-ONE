@@ -93,13 +93,13 @@ main{
     color: #FFFFFF;
 
     border: none;
-    background: linear-gradient(to bottom, #0e0279, #2079b0);
+    background: linear-gradient(to bottom, #0A3871 50%, #D8DFE8);
 
     cursor:pointer;
 }
 
 .botones input:hover {
-    background: linear-gradient(to bottom, #2079b0, #0e0279);
+    background: linear-gradient(to bottom,#D8DFE8, #0A3871);
   }
 
 .botones input:active{

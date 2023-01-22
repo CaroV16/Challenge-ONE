@@ -9,6 +9,15 @@ body{
     line-height: auto;
 }
 
+.logo{
+    position: absolute; 
+}
+
+.logo img{
+    width: fit-content ;
+    height: auto;
+}
+
 main{
     display: flex;
     flex-flow: row wrap;
@@ -16,3 +25,4 @@ main{
     gap: 5%;
     margin: 2.5rem 0;
 }
+

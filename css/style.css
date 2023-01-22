@@ -30,7 +30,7 @@ main{
     display: flex;
     flex-flow: row wrap;
     flex: 1 50%;
-    margin-top: 7rem;
+    margin-top: 6rem;
     margin-left: 12%;
     margin-bottom: 2rem;
 }
@@ -118,7 +118,7 @@ main{
 }
 
 .portada{
-    display: none;
+    display: inline-flex;
     flex-flow: row wrap;
     justify-content: center;
     padding: 1.5rem;
@@ -147,7 +147,7 @@ main{
 }
 
 .resultado{
-    display: inline-flex;
+    display: none/*inline-flex*/;
     flex-flow: row wrap;
     justify-content: center;
     padding:1.5rem;

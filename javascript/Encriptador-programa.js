@@ -3,6 +3,13 @@ var portada = document.querySelector(".portada");
 var resultado = document.querySelector(".resultado");
 var mensajeEncriptado = document.querySelector(".mensaje-encriptado")
 
+function botonEncriptar() {
+    var textoIngresado = encriptar(mensajeIngresado.value);
+    mensajeEncriptado.value = textoIngresado;
+
+    portada.style.display = "none";
+    resultado.style.display = "inline-flex";
+}
 
 
 function encriptar(mensajeCapturado){

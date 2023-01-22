@@ -26,7 +26,7 @@ main{
     margin: 2.5rem 0;
 }
  
-encriptador{
+.encriptador{
     display: flex;
     flex-flow: row wrap;
     flex: 1 40%;
@@ -37,7 +37,7 @@ encriptador{
 
 .encriptador textarea{
     flex: 1 100%;
-    background-color: rgb(253, 253, 252);
+    background-color: unset;
     padding: 1rem 2%;
     border: 0;
     resize: unset;
@@ -71,7 +71,7 @@ encriptador{
     display: inline-block;
     font-size: 12px;
     color: #495057;
-    opacity: 0.8 ;
+    opacity: 0.8;
 }
 
 .botones{
@@ -96,3 +96,11 @@ encriptador{
     border: none;
 }
 
+
+.mensaje{
+    flex: 1 25%;
+}
+
+footer{
+    text-align: center;
+}

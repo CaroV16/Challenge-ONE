@@ -53,3 +53,23 @@ encriptador{
 .encriptador textarea::placeholder{
     color: #0A3871;
 }
+
+.instruccion{
+    flex: 1 100%;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5%
+}
+
+.instruccion img{
+    width: fit-content;
+    height: auto;
+}
+ 
+.instruccion p{
+    display: inline-block;
+    font-size: 12px;
+    color: #495057;
+    opacity: 0.8 ;
+}

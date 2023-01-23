@@ -35,27 +35,30 @@
     body{
        padding: 0 6%;
     }
-    main{
-        flex-flow: row wrap;
-    }
+
     .encriptador textarea {
-        height: 10rem;
+        height: 15rem;
         width: 100%;
     
     }
     
     .botones{
         flex-flow: row wrap;
-        flex: 1 100%;
     }
 
     .botones input {
-        flex-flow: row wrap;
         flex: 1 100%;
     }
+
+    .portada{
+        padding:2rem;
+    }
+
     .resultado textarea{
-        flex: 1 100%;
-        height: 8rem;
+        padding: 2rem;
+        width: 100%;
+        height: 15rem;
+
     }
 
 }

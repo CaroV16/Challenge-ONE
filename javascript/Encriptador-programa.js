@@ -46,6 +46,12 @@ function encriptar(mensajeCapturado){
     return mensajeCapturado;
 }
 
+function copiarTexto(){
+    mensajeEncriptado.select();
+    mensajeEncriptado.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(mensajeEncriptado.value);
+}
+
 function botonDesencriptar() {
     var desencritado = desencriptar(mensajeIngresado.value);
     mensajeEncriptado.value = desencritado;

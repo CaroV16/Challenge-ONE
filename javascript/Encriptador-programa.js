@@ -3,6 +3,28 @@ var portada = document.querySelector(".portada");
 var resultado = document.querySelector(".resultado");
 var mensajeEncriptado = document.querySelector(".mensaje-encriptado")
 
+function sinCarcterersEspaciales(e){
+    var key = e.keyCode || e.which; 
+    var tecla = String.fromCharCode(key).toString();
+    var letras = " abcdefghijklmnopqrstuvwxyzñ";
+    var especiales = ["@", "á","é", "í", "ó", "ú"];
+    var teclaEspecial = false;
+
+    for (i in especiales){
+        
+        if(key == especiales[i]){
+            teclaEspecial = true;
+            break;
+        }
+
+    }
+    
+    if(letras.indexOf (tecla) == -1 && !teclaEspecial){
+        alert ("ingresa solo letas minúscilas sin tildes");
+        return false;
+    }
+}
+
 function botonEncriptar() {
     var textoIngresado = encriptar(mensajeIngresado.value);
     mensajeEncriptado.value = textoIngresado;
@@ -19,9 +41,7 @@ function encriptar(mensajeCapturado){
     for(i=0; i < codigoEncritacion.length; i++){
         if (mensajeCapturado.includes(codigoEncritacion[i][0])){
             mensajeCapturado = mensajeCapturado.replaceAll(codigoEncritacion[i][0], codigoEncritacion[i][1])
-
         }
     }
-
     return mensajeCapturado;
 }

@@ -29,3 +29,33 @@
         flex: 1 100%;
     
     }
+}
+
+@media all and (max-width:700px){
+    body{
+       padding: 0 6%;
+    }
+    main{
+        flex-flow: row wrap;
+    }
+    .encriptador textarea {
+        height: 10rem;
+        width: 100%;
+    
+    }
+    
+    .botones{
+        flex-flow: row wrap;
+        flex: 1 100%;
+    }
+
+    .botones input {
+        flex-flow: row wrap;
+        flex: 1 100%;
+    }
+    .resultado textarea{
+        flex: 1 100%;
+        height: 8rem;
+    }
+
+}

@@ -20,7 +20,7 @@ body{
 
 main{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-evenly;
     gap: 5%;
     margin: 2.5rem 0;

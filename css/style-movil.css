@@ -1,0 +1,28 @@
+@media all and (max-width:999px){
+    main{
+        flex-flow: row wrap;
+    }
+
+    .encriptador{
+        flex: 1 100%;
+        margin-left: 0%;
+        margin-bottom: 4rem;
+    }
+    
+    .encriptador textarea {
+        height: 40rem
+    }
+
+    .mensaje{
+        flex: 1 100%;
+    }
+
+    .portada img{
+        display: none;
+    }
+
+    
+    .textoportada{
+        margin-top: 0;
+    }
+}

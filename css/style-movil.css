@@ -4,25 +4,28 @@
     }
 
     .encriptador{
-        flex: 1 100%;
+        flex: 1 50%;
         margin-left: 0%;
         margin-bottom: 4rem;
     }
-    
+
     .encriptador textarea {
-        height: 40rem
+        height: 25rem
     }
 
     .mensaje{
-        flex: 1 100%;
+        flex: 1 50%;
     }
 
     .portada img{
         display: none;
     }
-
     
     .textoportada{
         margin-top: 0;
     }
-}
+
+    .resultado textarea{
+        flex: 1 100%;
+    
+    }

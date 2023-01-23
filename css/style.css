@@ -118,6 +118,7 @@ main{
 }
 
 .portada{
+    flex:1 100%;
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -147,6 +148,7 @@ main{
 }
 
 .resultado{
+    flex: 1 100%;
     display: none /*inline-flex*/;
     flex-flow: row wrap;
     justify-content: center;

@@ -28,7 +28,7 @@ function sinCarcterersEspaciales(e){
 function botonEncriptar() {
     var textoIngresado = encriptar(mensajeIngresado.value);
     mensajeEncriptado.value = textoIngresado;
-
+    mensajeIngresado.value = "";
     portada.style.display = "none";
     resultado.style.display = "inline-flex";
 }
@@ -45,3 +45,22 @@ function encriptar(mensajeCapturado){
     }
     return mensajeCapturado;
 }
+
+function botonDesencriptar() {
+    var desencritado = desencriptar(mensajeIngresado.value);
+    mensajeEncriptado.value = desencritado;
+    mensajeIngresado.value = "";
+}
+
+function desencriptar(textoEncriptado){
+    let codigoEncritacion = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
+    textoEncriptado = textoEncriptado.toLowerCase();
+
+    for(i=0; i < codigoEncritacion.length; i++){
+        if (textoEncriptado.includes(codigoEncritacion[i][1])){
+            textoEncriptado = textoEncriptado.replaceAll(codigoEncritacion[i][1], codigoEncritacion[i][0])
+        }
+    }
+    return textoEncriptado;
+}
+
